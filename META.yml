@@ -1,0 +1,31 @@
+---
+abstract: 'OAuth WRAP Client'
+author:
+  - 'Lyo Kato, C<lyo.kato _at_ gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.920'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: OAuth-Lite-WRAP-Client
+no_index:
+  directory:
+    - example
+    - inc
+    - t
+requires:
+  Class::ErrorHandler: 0
+  LWP::UserAgent: 0
+  Net::SSLeay: 0
+  OAuth::Lite: 0
+  Parmas::Validate: 0
+  Try::Tiny: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
